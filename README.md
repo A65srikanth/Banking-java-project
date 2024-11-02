@@ -5,7 +5,7 @@ ls
 chmod 777 jenkins.sh
 ls
 ./jenkins.sh
- apt install docker.io -y
+ apt install docker.io 
  service docker start
 sudo usermod -aG docker $USER
 service jenkins restart
